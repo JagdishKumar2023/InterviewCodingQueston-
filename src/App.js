@@ -1,10 +1,13 @@
-import { InterviewCoding } from "./components/InterviewCoding";
+// import { InterviewCoding } from "./components/InterviewCoding";
 // import InterviewFirstCode from "./components/InterviewFirstCode";
+import { RadioButton } from "./components/RadioButton";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <InterviewCoding />
+      <RadioButton />
+      {/* <InterviewCoding /> */}
       {/* <InterviewFirstCode /> */}
     </div>
   );
