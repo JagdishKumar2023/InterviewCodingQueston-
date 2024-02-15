@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.RadioBtn {
+  border: 2px solid green;
+  height: 700px;
+  background: greenyellow;
+}
+
+h1 {
+  /* border: 2px solid green; */
+  color: blue;
+}
+
+input {
+  border: red;
+}

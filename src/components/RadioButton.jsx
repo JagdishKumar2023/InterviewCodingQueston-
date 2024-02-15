@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const options = ["Cricket", "FootBall", "Hockey", "BasketBall", "BaseBall"];
 const Days = ["Weekday", "Weekend", "Sunday"];
 
-console.log("play");
+// console.log("play");
 
 export const RadioButton = () => {
   const [game, setGame] = useState();
