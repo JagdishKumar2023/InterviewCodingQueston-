@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
+  const theme = useTheme();
+  console.log(theme);
+
   return (
     <nav>
       <div className="navbar">
