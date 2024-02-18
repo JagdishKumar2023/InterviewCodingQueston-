@@ -1,18 +1,21 @@
+import "./App.css";
 // import { InterviewCoding } from "./components/InterviewCoding";
 // import InterviewFirstCode from "./components/InterviewFirstCode";
 // import { RadioButton } from "./components/RadioButton";
-import "./App.css";
-import { InterviewDropDown } from "./components/IntervieDropDown";
+// import { InterviewDropDown } from "./components/IntervieDropDown";
 // import { InterviewRound } from "./components/InterviewRound";
-
+import { PostComponent } from "./components/PostComponent";
+import { PostApi } from "./components/PostApi";
 function App() {
   return (
     <div className="App">
-      <InterviewDropDown />
+      {/* <InterviewDropDown /> */}
       {/* <InterviewRound /> */}
       {/* <RadioButton /> */}
       {/* <InterviewCoding /> */}
       {/* <InterviewFirstCode /> */}
+      <PostComponent />
+      <PostApi />
     </div>
   );
 }
