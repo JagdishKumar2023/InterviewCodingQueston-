@@ -58,8 +58,34 @@ body {
   padding: 0 30px;
 }
 
+p {
+  background: greenyellow;
+  color: red;
+  font-size: 30px;
+}
+
 .page {
   display: flex;
   flex-direction: column;
   height: 92vh;
+  font-size: 20px;
+}
+
+.navbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 40px;
+  list-style: none;
+}
+
+.navbar div {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
 }
