@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -36,7 +42,7 @@
     transform: rotate(360deg);
   }
 }
-
+/* 
 .RadioBtn {
   border: 2px solid green;
   height: 700px;
@@ -45,7 +51,7 @@
 
 h1 {
   /* border: 2px solid green; */
-  color: blue;
+/* color: blue;
 }
 
 input {
@@ -86,4 +92,47 @@ p {
 .navbar a {
   text-decoration: none;
   color: inherit;
+} */
+
+.dark-mode {
+  background: #121212;
+  height: 700px;
+}
+
+p {
+  color: green;
+  opacity: 87%;
+}
+
+h2 {
+  color: blue;
+  margin-top: 100px;
+}
+
+button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+}
+
+.title {
+  color: #03dac6;
+}
+
+.subtitle {
+  color: #03dac6;
+}
+
+.is-primary {
+  background-color: #bb86fc;
+  color: black;
+}
+
+.is-primary:hover,
+.is-primary:focus {
+  background: #bb86fc;
+  opacity: 75%;
+  color: black;
 }

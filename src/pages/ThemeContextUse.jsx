@@ -1,12 +1,12 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-const ThemeContextUse = createContext();
+const ThemeContext = createContext();
 
 const useTheme = () => {
-  return <div>{useContext(ThemeContextUse)}</div>;
+  return useContext(ThemeContext);
 };
 
-export const ThemeContext = ({ childer }) => {
+export const ThemeContextUse = ({ childer }) => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
@@ -17,11 +17,11 @@ export const ThemeContext = ({ childer }) => {
 
   useEffect(() => {
     document.documentElement.setAttribute("dataTheme", theme);
-  });
+  }, [isDarkMode]);
 
   return (
-    <ThemeContextUse.Provider value={{ theme, toggleTheme, useTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme, useTheme }}>
       {childer}
-    </ThemeContextUse.Provider>
+    </ThemeContext.Provider>
   );
 };
