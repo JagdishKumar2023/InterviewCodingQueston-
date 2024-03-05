@@ -1,10 +1,10 @@
 import "./App.css";
-import { DarkMode } from "./InterviePart2/DarkMode";
+import { Suffling } from "./components/Suffling";
 
 function App() {
   return (
     <div className="App">
-      <DarkMode />
+      <Suffling />
     </div>
   );
 }
@@ -21,8 +21,7 @@ export default App;
 // import { ContactUs } from "./pages/ContactUs";
 // import ThemeContext from "./pages/ThemeContextUse";
 
-{
-  /* <ThemeContext>
+/* <ThemeContext>
 <BrowserRouter>
   <Navbar />
   <Routes>
@@ -33,4 +32,3 @@ export default App;
   </Routes>
 </BrowserRouter>
 </ThemeContext> */
-}
