@@ -1,10 +1,10 @@
 import "./App.css";
-import { Suffling } from "./components/Suffling";
+import { InterviewQue } from "./components/InterviewQue";
 
 function App() {
   return (
     <div className="App">
-      <Suffling />
+      <InterviewQue />
     </div>
   );
 }
