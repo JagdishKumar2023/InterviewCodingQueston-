@@ -1,10 +1,11 @@
 import "./App.css";
-import { InterviewQue } from "./components/InterviewQue";
+import { Images } from "./Slider/Images";
+// import { LikeBtn } from "./LikeHeart/LikeBtn";
 
 function App() {
   return (
     <div className="App">
-      <InterviewQue />
+      {/* <LikeBtn /> */} <Images />{" "}
     </div>
   );
 }
